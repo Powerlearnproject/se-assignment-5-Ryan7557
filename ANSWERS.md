@@ -51,6 +51,7 @@ Color Themes from the Marketplace:
 There are several out-of-the-box color themes in VS Code for you to try. Many more themes have been uploaded to the VS Code Extension Marketplace by the community.
 
 You can select Color Themes from the VS Code Marketplace directly from the Color Theme picker by selecting Browse Additional Color Themes....
+
 ![alt text](additional-color-themes.png)
 
 Alternately, you can search for themes in the Extensions view (Ctrl+Shift+X) search box by using the @category:"themes" filter.
@@ -98,3 +99,71 @@ Prettier is one of the most popular VS Code extensions at the moment. It helps d
 ![alt text](Project-Manager.png)
 
 The Project Manager is a useful extension for project managers to use to oversee several DevOps projects on VS Code at once. Regardless of where the projects are located, you can use the Project Manager extension to access them from a single computer. The Project Manager extension has more than 2.6 million downloads.
+
+
+
+3. User Interface Overview:
+
+![alt text](hero.png)
+
+VS Code comes with a simple and intuitive layout that maximizes the space provided for the editor, while leaving ample room to browse and access the full context of your folder or project. The user interface is divided into five main areas:
+    - Activity bar: Located on the far left-hand side. Lets you switch between views and gives you additional context-specific indicators, like the number of outgoing changes when Git is enabled. You can change the position of the Activity Bar.
+    - Primary Side Bar - Contains different views like the Explorer to assist you while working on your project.
+    - Editor - The main area to edit your files. You can open as many editors as you like side by side vertically and horizontally.
+    - Status Bar - Information about the opened project and the files you edit.
+
+
+4. Command Palette:
+The command palette provides access to many commands. You can run editor commands, open files, search for symbols, and see a quick outline of a file, all using the same interactive windows.
+The command palette can be accessed by a combination keys which are Ctrl+Shift+P, which brings up the Command palette.
+Here are some examples that command palette can perform:
+    - Running commands: Execute various commands, such as debugging, testing, and tasks.
+    - Opening files and folders: Quickly open specific files, folders, or projects.
+    - Editing configurations: Modify settings, such as user settings, workspace settings, and keyboard shortcuts.
+    - Searching and replacing: Perform searches, replacements, and regex operations.
+    - Code actions: Trigger code actions like formatting, refactoring, and code snippets.
+    - Debugging: Start, stop, and manage debugging sessions.
+    - Testing: Run tests, view test results, and debug tests.
+
+
+5. Extensions in VS Code:
+VS Code extensions let you add languages, debuggers, and tools to your installation to support your development workflow.
+To install extensions from VS Code. Bring up the Extensions view bu clicking on th Extensions icon in the Activity Bar on the side of VS code or the View: Extensions command (Ctrl+Shift+X)
+
+![alt text](extensions-view-icon.png)
+
+This will show you a list of the most popular VS Code extensions on the VS Code Marketplace.
+
+![alt text](extensions-popular.png)
+
+To install an extension, select the Install button. Once the installation is complete, the Install button will change to the Manage gear button.
+
+VS Code makes it easy to manage your extensions. You can install, disable, update, and uninstall extensions through the Extensions view, the Command Palette (commands have the Extensions: prefix) or command-line switches.
+
+Here are some examples of extensions used for web development:
+    - ESLint
+    - Beautify
+    - Better Comments
+    - Quokka
+    - Polacode
+    - Live Share
+    - HTML CSS Support
+    - Bracket Pair Colorizer
+
+
+
+6. Integrated Terminal:
+To begin, open VS Code on Windows 10/11 and navigate to the menu bar at the top. From there, select the "View" option and then click on "Terminal".
+Using the Integrated Terminal in VS Code has several advantages over using an external terminal:
+    - Convenience: Stay within the editor, no need to switch between windows or applications.
+    - Context awareness: The terminal is aware of the current file, folder, or project, making it easier to execute commands.
+    - Seamless debugging: Debugging is more streamlined, as you can run commands and debug simultaneously.
+    - Improved workflow: Execute commands, run tests, and perform other tasks without leaving the editor.
+    - Enhanced productivity: Reduce the need to switch between windows, making your workflow more efficient.
+    - Better integration: The Integrated Terminal is tightly integrated with VS Code, allowing for features like automatic command suggestions and error detection.
+    - Multi-root support: Easily work with multiple projects or folders in a single terminal.
+    - Customization: Customize the terminal to your liking, with options like custom shells, themes, and more.
+
+
+
+
