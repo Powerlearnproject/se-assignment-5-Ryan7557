@@ -166,4 +166,144 @@ Using the Integrated Terminal in VS Code has several advantages over using an ex
 
 
 
+7. File and Folder Management:
+How to create a file in VS Code:
+- Open the Explorer: Click the Explorer icon in the left sidebar or press Ctrl+Shift+E (Windows/Linux) or Cmd+Shift+E (Mac).
+- Click the "New File" button: In the Explorer, click the "New File" button (looks like a piece of paper with a plus sign) or right-click and select "New File".
+- Name your file: Enter a name for your file, including the appropriate extension (e.g., .txt, .js, .py, etc.).
+- Choose a location: Select the folder where you want to create the file.
+- Create the file: Click the "Create" button or press Enter.
+Alternatively, you can also:
+- Press Ctrl+N (Windows/Linux) or Cmd+N (Mac) to create a new file.
+- Right-click in the Explorer and select "New File" from the context menu.
+Once you've created a new file, you can start editing it in the editor panel.
 
+How to open a file in VS Code:
+- Open the Explorer: Click the Explorer icon in the left sidebar or press Ctrl+Shift+E (Windows/Linux) or Cmd+Shift+E (Mac).
+- Navigate to the file: In the Explorer, navigate to the folder containing the file you want to open.
+- Click on the file: Click on the file to open it in the editor panel.
+- Double-click: Alternatively, double-click the file to open it.
+Or:
+- Use the Command Palette: Press Ctrl+P (Windows/Linux) or Cmd+P (Mac) to open the Command Palette.
+- Type the file name: Type the name of the file you want to open, and select it from the suggestions.
+- Open the file: Press Enter to open the file in the editor panel.
+
+How to manage files in VS Code by File Operations:
+- Create file: Ctrl+N (Windows/Linux) or Cmd+N (Mac).
+- Delete file: Del key or right-click > "Delete".
+- Rename file: Click file name, or right-click > "Rename".
+- Copy/Paste files: Ctrl+C / Ctrl+V (Windows/Linux) or Cmd+C / Cmd+V (Mac)
+
+
+
+8. Settings and Preferences:
+Where can users find and customize settings in VS Code?:
+- Use the Settings editor to review and change VS Code settings. To open the Settings editor, navigate to File > Preferences > Settings. Alternately, open the Settings editor from the Command Palette (Ctrl+Shift+P) with Preferences: Open Settings or use the keyboard shortcut (Ctrl+,).
+
+- When you open the Settings editor, you can search and discover the settings you are looking for. When you search using the search bar, it not only shows and highlights the settings matching your criteria, but also filter out those which are not matching. This makes finding settings quick and easy.
+
+![alt text](<settings-search (1).png>)
+
+Changes to settings are applied directly by VS Code, as you change them. Modified settings are indicated with a blue line, similar to modified lines in the editor.
+
+In the example below, the Side Bar location and File Icon Theme were changed.
+
+![alt text](<settings-modified (1).png>)
+
+Provide examples of how to change the theme, font size, and keybindings:
+To select a different Color Theme:
+    1. Select the File > Preferences > Theme > Color Theme menu item, or use the Preferences: Color Theme command (Ctrl+K Ctrl+T) to display the Color Theme picker.
+    2. Use the Up and Down keys to navigate through the list and preview the colors of the theme.
+    3. Select the theme you want and press Enter.
+
+How To Change Font Size In VSCode:
+    1. Open the settings (File > Preferences > Settings) or use the keyboard shortcut (Ctrl + ,)tThen type “font size” in the search box.
+    2. You will see two options:
+        - “editor.fontSize”: 18
+        - “editor.lineHeight”: 24
+    3. You can adjust these settings to your liking.
+    4. If you want a bigger or smaller font size, simply change the numbers. The “lineHeight” option will adjust the spacing between lines.
+
+
+
+9. Debugging in VS Code:
+Outline the steps to set up and start debugging a simple program in VS Code:
+Step 1: Create a new project
+    - Open VS Code.
+    - Create a new folder for your project.
+    - Open the folder in VS Code.
+
+Step 2: Create a simple program.
+    - Create a new file (e.g., main.py or main.js).
+    - Write a simple program (e.g., a "Hello World" program).
+
+Step 3: Install a debugger extension.
+    - Open the Extensions panel (Ctrl+Shift+X or Cmd+Shift+X).
+    - Search for a debugger extension (e.g., "Python" or "JavaScript Debugger").
+    - Install the extension.
+
+Step 4: Configure the debugger.
+    - Create a launch.json file (if prompted by the extension).
+    - Configure the debugger settings (e.g., program path, runtime, etc.).
+
+Step 5: Set breakpoints.
+    - Open your program file.
+    - Click in the gutter next to the line number where you want to set a breakpoint.
+    - Press F9 or click the "Set Breakpoint" button.
+
+Step 6: Start debugging.
+    - Press F5 or click the "Start Debugging" button.
+    - The debugger will start, and your program will run until it hits the breakpoint
+
+Step 7: Debug your program.
+    - Use the debugger tools (e.g., Step Over, Step Into, Step Out, etc.).
+    - Inspect variables and expressions.
+    - Fix errors and bugs.
+
+Step 8: Stop debugging.
+    - Press Shift+F5 or click the "Stop Debugging" button.
+    - The debugger will stop, and your program will terminate.
+
+What are some key debugging features available in VS Code:
+VS Code offers a wide range of debugging features to help you identify and fix issues in your code. Here are some key debugging features available in VS Code:
+    1. Breakpoints: Set breakpoints to pause code execution and inspect variables, expressions, and function calls.
+    2. Step Over, Step Into, and Step Out: Control code execution to trace the flow of your program.
+    3. Variable Inspection: Examine variable values, including objects and arrays, to understand the state of your program.
+    4. Expression Evaluation: Evaluate expressions and see the results in real-time.
+    5. Call Stack: View the call stack to see the sequence of function calls leading to the current point of execution.
+    6. Debug Console: Interact with your program using the debug console, which allows you to execute code snippets and inspect variables.
+    7. Watch: Set watches to monitor specific variables or expressions and see their values change in real-time.
+
+
+
+
+10. Using Source Control:
+How can users integrate Git with VS Code for version control:
+- Make sure Git is installed on your computer, and you have a GitHub account.
+- Open the Source Control view in VS Code.
+- Select the Initialize Repository button to create a new Git repository in the current folder.
+- Publish the local repository to GitHub by selecting the Publish to GitHub command button.
+- Enter a name and description for the repository, and select whether to make it public or private.
+- Open the GitHub repository in VS Code by selecting the Clone Repository button.
+- Enter the repository URL, select Clone, and pick a folder on your local machine to clone the files into.
+- Start tracking code changes by staging and committing your newly created and edited code by accessing the Source Control view from the Activity Bar.
+
+
+Describe the process of initializing a repository, making commits, and pushing changes to GitHub:
+- If your workspace is on your local machine, you can enable Git source control by creating a Git repository with the Initialize Repository command. When VS Code doesn't detect an existing Git repository, the Source Control view will give you the options to Initialize Repository or Publish to GitHub.
+
+![alt text](initialize-repository.png)
+
+- You can also run the Git: Initialize Repository and Publish to GitHub commands from the Command Palette (Ctrl+Shift+P). Running Initialize Repository will create the necessary Git repository metadata files and show your workspace files as untracked changes ready to be staged. Publish to GitHub will directly publish your workspace folder to a GitHub repository, allowing you to choose between private and public repositories. Check out our publishing repos video for more information about publishing to GitHub
+
+Make Commits:
+    1. Make changes to your files, such as editing or adding new files.
+    2. Open the Source Control view and select the changes you want to commit.
+    3. Enter a commit message in the input field at the top of the Source Control view.
+    4. Click the Commit button or press Ctrl+Enter (Windows/Linux) or Cmd+Enter (Mac) to commit the changes.
+
+Push Changes to Github:
+    1. Create a new repository on GitHub or link an existing one to your local repository.
+    2. In the Source Control view, click the Push button or press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac).
+    3. Select the GitHub repository you want to push to and enter your credentials if prompted.
+    4. VS Code will push your commits to the GitHub repository.
